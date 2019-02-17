@@ -26,7 +26,7 @@ export default class App extends React.Component {
           timeout={600}
           classNames="fade"
         >
-          <h1>Hello CodeSandbox</h1>
+          <h1>Should fade!</h1>
         </CSSTransition>
         <CSSTransition
           in={this.state.appearHome}
@@ -34,7 +34,7 @@ export default class App extends React.Component {
           timeout={600}
           classNames="slideUp"
         >
-          <h2>Start editing to see some magic happen!</h2>
+          <h2>Should slide up!</h2>
         </CSSTransition>
         <CSSTransition
           in={this.state.appearHome}
@@ -42,7 +42,7 @@ export default class App extends React.Component {
           timeout={600}
           classNames="slideDown"
         >
-          <h2>Start editing to see some magic happen!</h2>
+          <h2>Should slide down!</h2>
         </CSSTransition>
       </div>
     );
