@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 600ms linear;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 600ms linear;
+}
+
+.slideUp-enter {
+  opacity: 0.01;
+  transform: translateY(100%);
+}
+.slideUp-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 600ms ease-out;
+}
+
+.slideDown-enter {
+  opacity: 0.01;
+  transform: translateY(-100%);
+}
+.slideDown-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 600ms ease-out;
+}
